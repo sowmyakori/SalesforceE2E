@@ -9,15 +9,86 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">com.demo.SaleForceTest</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">88,140</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">3</td><td class="num attn">1</td><td class="num attn">2</td><td class="num">82,896</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">com.demo.SaleForceTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.demo.SaleForceTest</td><td><a href="#m0">TC01_loginWithoutPassword</a></td><td rowspan="1">1563584282355</td><td rowspan="1">1312</td></tr><tr class="passedeven"><td><a href="#m1">TC02_LoginToSFDC</a></td><td rowspan="1">1563584292903</td><td rowspan="1">2731</td></tr><tr class="passedeven"><td><a href="#m2">TC03_RememberUserNameChecked</a></td><td rowspan="1">1563584304187</td><td rowspan="1">12610</td></tr><tr class="passedeven"><td><a href="#m3">TC04A_ForgotPassword</a></td><td rowspan="1">1563584325926</td><td rowspan="1">893</td></tr><tr class="passedeven"><td><a href="#m4">TC04B_WrongCredential</a></td><td rowspan="1">1563584336174</td><td rowspan="1">749</td></tr><tr class="passedeven"><td><a href="#m5">TC05_SelectUserMenu</a></td><td rowspan="1">1563584345009</td><td rowspan="1">12297</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">com.demo.SaleForceTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.demo.SaleForceTest</td><td><a href="#m0">closeBrowser</a></td><td rowspan="1">1563809430422</td><td rowspan="1">3634</td></tr><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.demo.SaleForceTest</td><td><a href="#m1">TC03_RememberUserNameChecked</a></td><td rowspan="1">1563809394135</td><td rowspan="1">7969</td></tr><tr class="failedeven"><td><a href="#m2">TC04B_WrongCredential</a></td><td rowspan="1">1563809430387</td><td rowspan="1">28</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="3">com.demo.SaleForceTest</td><td><a href="#m3">closeBrowser</a></td><td rowspan="1">1563809434061</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">flushReport</a></td><td rowspan="1">1563809434062</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">openBrowser</a></td><td rowspan="1">1563809434059</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.demo.SaleForceTest</td><td><a href="#m6">TC05_SelectUserMenu</a></td><td rowspan="1">1563809434061</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.demo.SaleForceTest</td><td><a href="#m7">TC01_loginWithoutPassword</a></td><td rowspan="1">1563809362073</td><td rowspan="1">1391</td></tr><tr class="passedeven"><td><a href="#m8">TC02_LoginToSFDC</a></td><td rowspan="1">1563809377177</td><td rowspan="1">2676</td></tr><tr class="passedeven"><td><a href="#m9">TC04A_ForgotPassword</a></td><td rowspan="1">1563809417572</td><td rowspan="1">1542</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">com.demo.SaleForceTest#TC01_loginWithoutPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.demo.SaleForceTest#TC02_LoginToSFDC</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.demo.SaleForceTest#TC03_RememberUserNameChecked</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.demo.SaleForceTest#TC04A_ForgotPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.demo.SaleForceTest#TC04B_WrongCredential</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.demo.SaleForceTest#TC05_SelectUserMenu</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Command line test</h2><h3 id="m0">com.demo.SaleForceTest#closeBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;DESKTOP-1IL03V1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Dell-Latitude-E6430\AppData\Local\Temp\rust_mozprofile.oJorjueipiU8, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=30368, browserName=firefox, moz:buildID=20190705220548, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 232de5d9-2baa-41b0-8390-a6b77a17d717
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:532)
+	at com.demo.SaleForceTest.closeBrowser(SaleForceTest.java:52)
+... Removed 41 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.demo.SaleForceTest#TC03_RememberUserNameChecked</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class=&apos;profileTrigger branding-user-profile bgimg slds-avatar slds-avatar_profile-image-small circular forceEntityIcon&apos;]//span[@class=&apos;uiImage&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;DESKTOP-1IL03V1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Dell-Latitude-E6430\AppData\Local\Temp\rust_mozprofile.8u7Wj5KuZUp7, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=29048, browserName=firefox, moz:buildID=20190705220548, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: aee77188-1ab6-47c2-8432-1f9ae3e6d382
+*** Element info: {Using=xpath, value=//div[@class=&apos;profileTrigger branding-user-profile bgimg slds-avatar slds-avatar_profile-image-small circular forceEntityIcon&apos;]//span[@class=&apos;uiImage&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at com.demo.SaleForceTest.TC03_RememberUserNameChecked(SaleForceTest.java:103)
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.demo.SaleForceTest#TC04B_WrongCredential</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;DESKTOP-1IL03V1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Dell-Latitude-E6430\AppData\Local\Temp\rust_mozprofile.oJorjueipiU8, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=30368, browserName=firefox, moz:buildID=20190705220548, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 232de5d9-2baa-41b0-8390-a6b77a17d717
+*** Element info: {Using=id, value=username}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:462)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at com.demo.SaleForceTest.TC04B_WrongCredential(SaleForceTest.java:139)
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.demo.SaleForceTest#closeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.demo.SaleForceTest#flushReport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.demo.SaleForceTest#openBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.demo.SaleForceTest#TC05_SelectUserMenu</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;DESKTOP-1IL03V1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Dell-Latitude-E6430\AppData\Local\Temp\rust_mozprofile.oJorjueipiU8, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=30368, browserName=firefox, moz:buildID=20190705220548, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 232de5d9-2baa-41b0-8390-a6b77a17d717
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:532)
+	at com.demo.SaleForceTest.closeBrowser(SaleForceTest.java:52)
+... Removed 41 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.demo.SaleForceTest#TC01_loginWithoutPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.demo.SaleForceTest#TC02_LoginToSFDC</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.demo.SaleForceTest#TC04A_ForgotPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
