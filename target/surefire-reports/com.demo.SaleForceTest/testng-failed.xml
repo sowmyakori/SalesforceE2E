@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.demo.SaleForceTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.demo.SaleForceTest">
+        <methods>
+          <include name="TC03_RememberUserNameChecked"/>
+          <include name="closeBrowser"/>
+          <include name="TC05_SelectUserMenu"/>
+          <include name="openBrowser"/>
+          <include name="TC04B_WrongCredential"/>
+          <include name="flushReport"/>
+        </methods>
+      </class> <!-- com.demo.SaleForceTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.demo.SaleForceTest] -->
